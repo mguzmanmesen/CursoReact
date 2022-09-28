@@ -1,10 +1,10 @@
-import { Homework1 } from './homework1';
+import { Classwork1 } from './classwork1';
 import React from 'react';
 
 function App() {
   return (
     <div >
-      <Homework1/>
+      <Classwork1 />
     </div>
   );
 }

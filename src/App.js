@@ -1,9 +1,9 @@
-import { Classwork1 }  from './classwork1';
+import { Homework2 }  from './homework2';
 
 function App() {
   return (
     <div >
-      <Classwork1/>
+      <Homework2/>
     </div>
   );
 }

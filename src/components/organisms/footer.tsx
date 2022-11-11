@@ -1,21 +1,14 @@
 import React, { PropsWithChildren, useState } from "react";
+import '../../styles/header.sass';
 
 export const Footer: React.FC<PropsWithChildren> = ({ children }) => {
 
     const styles: { [key: string]: React.CSSProperties } = {
-        footerstyle: {
-            textAlign: "center",
-            backgroundColor: "black",
-            color: "white",
-        }   
+       
     } as const ;
 
   return (
-        <footer className=".footerstyle" style={{
-        textAlign: "center",
-        backgroundColor: "black",
-          color: "white",
-      fontSize:"12px"}} >
+        <footer className="footerstyle" >
           <p style={{ display: "contents" }}>
               This is a footer - This is a footer - This is a footer - This is a footer - This is a footer - This is a footer
           </p>

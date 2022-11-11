@@ -61,7 +61,7 @@ export const Header: React.FC<PropsWithChildren> = ({ children }) => {
         <header className="Header" style={{ borderBottomColor: "beige", borderBottomWidth:"12px", borderBottomStyle:"dotted" }}>
               <span onClick={clickheader}>Movies</span>
               <div style={{ float: "right", fontSize: "60%" }}>
-                    <div style={{ float: "left", paddingTop:"10px", paddingRight:"10px" }}>Bienvenido</div>
+                    <div style={{ float: "left", paddingTop:"10px", paddingRight:"10px" }}>Welcome</div>
                     <div style={styles.buttondiv}><button style={styles.button} onClick={clickLogout}>Logout</button></div>
             </div>
           </header>
